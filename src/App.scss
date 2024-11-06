@@ -1,0 +1,81 @@
+
+$fuente: 'Inter', sans-serif; 
+
+.container-mainbar {
+  display: flex;  
+  align-items: center; /* Centra el texto verticalmente con respecto a la imagen */
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+.h1-mainbar {
+  margin: 0; /* Elimina los márgenes del texto */
+  text-align: center; /* Asegura que el texto esté centrado */
+  flex-grow: 1; 
+  color: #200020;
+  font-family: $fuente; /* Aplica la tipografía Inter */
+  font-weight: 700; 
+}
+
+
+.content {
+  padding-top: 20px;
+  min-height: 80vh;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #ed0b0b;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.banner-container {
+  background-color: #200020;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Navbar personalizado */
+.custom-navbar {
+  background-color: #200020; /* Cambia a un color de fondo oscuro */
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #d1d1d1;
+}
+
+/* Opciones de navbar centradas */
+.nav-link {
+  font-size: 1rem;
+  color: white; /* Color de los enlaces */
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+/* Resaltar el enlace activo con un fondo diferente */
+.nav-link.active {
+  background-color: white; 
+  color: #000 !important;
+}
+
+.nav-link:hover {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
