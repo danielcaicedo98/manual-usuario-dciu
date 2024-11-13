@@ -193,7 +193,7 @@ function Funciones() {
                                         setPaso(1);
                                         setModo(null); // Regresar a la pantalla de selección
                                     }}>
-                                        Reiniciar
+                                        Finalizar
                                     </Button>
                                 )}
                             </div>
