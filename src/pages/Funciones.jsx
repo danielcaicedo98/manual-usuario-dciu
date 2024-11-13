@@ -24,7 +24,7 @@ function Funciones() {
         }, 100);
     };
 
-    const optionEnviar = () => {        
+    const optionEnviar = () => {
         setModo('recargar');
         setPaso(1);
         setTimeout(() => {
@@ -33,14 +33,14 @@ function Funciones() {
     };
 
     const optionRetirar = () => {
-        setModo('retirar'); 
-        setPaso(1); 
+        setModo('retirar');
+        setPaso(1);
         setTimeout(() => {
             finalRef.current?.scrollIntoView({ behavior: 'smooth' });
         }, 100);
     };
 
-    const listEnviar = () => {        
+    const listEnviar = () => {
         setModo('recargar');
         setTimeout(() => {
             finalRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -48,7 +48,7 @@ function Funciones() {
     };
 
     const listRetirar = () => {
-        setModo('retirar'); 
+        setModo('retirar');
         setTimeout(() => {
             finalRef.current?.scrollIntoView({ behavior: 'smooth' });
         }, 100);
@@ -58,7 +58,7 @@ function Funciones() {
     const pasosRecarga = [
         {
             titulo: 'Paso 1: Ingresar a la App',
-            descripcion: 'Abre la aplicación Nequi en tu teléfono e ingresa con tu número de teléfono',
+            descripcion: 'Entra a Nequi con tu clave y número de celu, luego ve al signo "$" que está en la parte inferior derecha. Luego, haz clic en la opción "Envía".',
             imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273465741'
         },
         {
@@ -126,11 +126,26 @@ function Funciones() {
             <Card className="m-3" style={{ width: '200px', height: '200px' }}>
                 <Card.Body style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                     <Card.Title>Opciones</Card.Title>
-                    <Button variant="primary" className="w-100 mb-2" onClick={() => optionEnviar()}>
-                        Enviar Dinero
+                    <Button
+                        style={{
+                            backgroundColor: modo === 'recargar' ? '#9B005E' : '#DA0081',
+                            color: 'rgb(255, 255, 255)',
+                            borderColor: modo === 'recargar' ? 'rgb(0, 128, 0)' : 'rgb(0, 123, 255)'
+                        }}
+                        className="w-100 mb-2"
+                        onClick={() => optionEnviar()}>
+                        Transfiya
                     </Button>
-                    <Button variant="primary" className="w-100" onClick={() => optionRetirar()}>
-                        Retirar
+                    <Button
+                        style={{
+                            backgroundColor: modo === 'retirar' ? '#9B005E' : '#DA0081',
+                            color: 'rgb(255, 255, 255)',
+                            borderColor: modo === 'retirar' ? 'rgb(0, 128, 0)' : 'rgb(0, 123, 255)'
+                        }}
+
+                        className="w-100"
+                        onClick={() => optionRetirar()}>
+                        Bancos
                     </Button>
                 </Card.Body>
             </Card>
@@ -145,12 +160,12 @@ function Funciones() {
                                 <ul style={{ paddingLeft: '1.5rem', listStyleType: 'disc', margin: 0 }}>
                                     <li style={{ marginBottom: '0.5rem', padding: 0 }}>
                                         <a href="#" onClick={() => listEnviar()} className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-                                            Enviar Dinero
+                                            Transfiya
                                         </a>
                                     </li>
                                     <li style={{ marginBottom: '0.5rem', padding: 0 }}>
                                         <a href="#" onClick={() => listRetirar()} className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-                                            Retirar
+                                            Bancos
                                         </a>
                                     </li>
                                 </ul>
