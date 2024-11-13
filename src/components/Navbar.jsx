@@ -61,6 +61,16 @@ function Navbar({ setHeaderText }) {
                 Seguridad
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink to="/enviardinero" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
+                {
+                  titulo:"Enviar Dinero",
+                  texto: "En esta sección aprenderás a enviar dinero"
+                }
+              )}>
+                Enviar Dinero
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>

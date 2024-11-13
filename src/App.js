@@ -8,6 +8,7 @@ import Configuracion from './pages/Configuracion';
 import Seguridad from './pages/Seguridad';
 import './App.scss';
 import Mainbar from './components/MainBar';
+import EnviarDinero from './pages/EnviarDinero';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
             <Route path="/funciones" element={<Funciones />} />
             <Route path="/configuracion" element={<Configuracion />} />
             <Route path="/seguridad" element={<Seguridad />} />
+            <Route path="/enviardinero" element={<EnviarDinero />} />
           </Routes>
         </div>
       </div>

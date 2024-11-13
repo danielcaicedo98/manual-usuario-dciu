@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button } from 'react-bootstrap';
 
-function Funciones() {
+function EnviarDinero() {
     const [modo, setModo] = useState(null); // 'recargar' o 'retirar'
     const [paso, setPaso] = useState(1);
     const finalRef = useRef(null);
@@ -191,4 +191,4 @@ function Funciones() {
     );
 }
 
-export default Funciones;
+export default EnviarDinero;
