@@ -137,7 +137,7 @@ function EnviarDinero() {
 
             <div className="d-flex justify-content-center vh-90 bg-light">
                 {!modo ? (
-                    <Card style={{ width: '24rem' }} className="shadow">
+                    <Card style={{ width: '35rem' }} className="shadow">
                         <Card.Body>
                             <Card.Title className="text-center">Selecciona una Opción</Card.Title>
                             <Card.Text>En esta sección encontrarás las siguientes opciones</Card.Text>
@@ -158,7 +158,7 @@ function EnviarDinero() {
                         </Card.Body>
                     </Card>
                 ) : (
-                    <Card style={{ width: '24rem', marginBottom: '0.5rem' }} className="shadow">
+                    <Card style={{ width: '35rem', marginBottom: '0.5rem' }} className="shadow">
                         <Card.Img variant="top" src={imagen} style={{ width: '100%', height: '500px', objectFit: 'contain' }} />
                         <Card.Body>
                             <Card.Title>{titulo}</Card.Title>
