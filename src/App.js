@@ -14,7 +14,7 @@ function App() {
 
   const [headerText, setHeaderText] = useState({
     titulo:"Aprende a usar Nequi",
-    texto: "Te deamos la bienvenida a nequi. Aquí aprenderás a usarlo"
+    texto: "Te damos la bienvenida a nequi. Aquí aprenderás a usarlo"
   });
 
   return (
