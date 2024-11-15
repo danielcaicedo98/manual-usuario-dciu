@@ -65,7 +65,7 @@ function Navbar({ setHeaderText }) {
               <NavLink to="/enviardinero" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
                 {
                   titulo:"Enviar Dinero",
-                  texto: "En esta sección aprenderás a enviar dinero"
+                  texto: "En esta sección te enseñamos cómo enviar dinero fácilmente"
                 }
               )}>
                 Enviar Dinero
