@@ -25,13 +25,54 @@ function Navbar({ setHeaderText }) {
             <li className="nav-item">
               <NavLink to="/" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
                 {
-                  titulo:"Inicio",
-                  texto: "Configuraciones iniciales"
+                  titulo:"Aprende a usar Nequi",
+                  texto: "Explora las funciones clave de Nequi para aprovechar al máximo tu cuenta."
                 })}>
                 Inicio
               </NavLink>
+            </li>           
+            <li className="nav-item">
+              <NavLink to="/enviardinero" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
+                {
+                  titulo:"Enviar Dinero",
+                  texto: "En esta sección te enseñamos cómo enviar dinero fácilmente"
+                }
+              )}>
+                Enviar Dinero
+              </NavLink>
             </li>
             <li className="nav-item">
+              <NavLink to="/sacardinero" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
+                {
+                  titulo:"Cómo Retirar Dinero en Nequi",
+                  texto: "En esta sección te enseñamos cómo sacar dinero fácilmente"
+                }
+              )}>
+                Sacar Dinero
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/recarganequi" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
+                {
+                  titulo:"Deposita dinero en tu cuenta Nequi",
+                  texto: "En esta sección te enseñamos cómo puedes depositar dinero en tu cuenta fácilmente"
+                }
+              )}>
+                Recarga Nequi
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/relacionesconfianza" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
+                {
+                  titulo:"Cómo Retirar Dinero en Nequi",
+                  texto: "En esta sección te enseñamos cómo sacar dinero fácilmente"
+                }
+              )}>
+                Relaciones de Confianza
+              </NavLink>
+            </li>
+
+            {/* <li className="nav-item">
               <NavLink to="/funciones" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
                 {
                   titulo:"Funciones",
@@ -60,17 +101,7 @@ function Navbar({ setHeaderText }) {
               )}>
                 Seguridad
               </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to="/enviardinero" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
-                {
-                  titulo:"Enviar Dinero",
-                  texto: "En esta sección te enseñamos cómo enviar dinero fácilmente"
-                }
-              )}>
-                Enviar Dinero
-              </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

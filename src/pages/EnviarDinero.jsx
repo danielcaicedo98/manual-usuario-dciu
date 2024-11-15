@@ -2,12 +2,16 @@ import React, { useEffect, useRef, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Button } from 'react-bootstrap';
 import './Styles.css'
-// import '../../public/assets/gifts/gift_transfiya1.gif'
 
 function EnviarDinero() {
     const [modo, setModo] = useState(null); // 'recargar' o 'retirar'
     const [paso, setPaso] = useState(1);
     const finalRef = useRef(null);
+
+    useEffect(() => {
+        // Este código hace scroll hacia el top (arriba) solo una vez al montar el componente
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, []);
 
     // Función para avanzar al siguiente paso
     const siguientePaso = () => {
