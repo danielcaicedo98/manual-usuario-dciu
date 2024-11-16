@@ -15,39 +15,55 @@ function Inicio({ setHeaderText }) {
       </p>
       <li style={{ marginBottom: '0.5rem', padding: 0 }}>
         <Link to="/enviardinero" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}
-        onClick={() => setHeaderText(
-                {
-                  titulo:"Enviar Dinero",
-                  texto: "En esta sección te enseñamos cómo enviar dinero fácilmente"
-                }
-              )}>
+          onClick={() => setHeaderText(
+            {
+              titulo: "Enviar Dinero",
+              texto: "En esta sección te enseñamos cómo enviar dinero fácilmente"
+            }
+          )}>
           ¿Cómo enviar dinero?
         </Link>
       </li>
       <li style={{ marginBottom: '0.5rem', padding: 0 }}>
-        <a href="/sacardinero" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-        ¿Cómo sacar dinero?
-        </a>
+        <Link to="/sacardinero" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }} onClick={() => setHeaderText(
+          {
+            titulo: "Cómo Retirar Dinero en Nequi",
+            texto: "En esta sección te enseñamos cómo sacar dinero fácilmente"
+          }
+        )}>
+          ¿Cómo sacar dinero?
+        </Link>
       </li>
       <li style={{ marginBottom: '0.5rem', padding: 0 }}>
-        <a href="/relacionesconfianza" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
+        <Link to="/recarganequi" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }} onClick={() => setHeaderText(
+          {
+            titulo: "Deposita dinero en tu cuenta Nequi",
+            texto: "En esta sección te enseñamos cómo puedes depositar dinero en tu cuenta fácilmente"
+          }
+        )}>
+          ¿Cómo recargar Nequi?
+        </Link>
+      </li>
+      <li style={{ marginBottom: '0.5rem', padding: 0 }}>
+        <Link to="/relacionesconfianza" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}
+          onClick={() => setHeaderText(
+            {
+              titulo: "Relaciones de confianza",
+              texto: "En esta sección aprenderás a gestionar tus relaciones de confianza"
+            }
+          )}>
           Relaciones de confianza
-        </a>
+        </Link>
       </li>
       <li style={{ marginBottom: '0.5rem', padding: 0 }}>
-        <a href="/relacionesconfianza" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-          Opcion 4
-        </a>
-      </li>
-      <li style={{ marginBottom: '0.5rem', padding: 0 }}>
-        <a href="/relacionesconfianza" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
+        <Link to="/relacionesconfianza" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
           Opcion 5
-        </a>
+        </Link>
       </li>
       <li style={{ marginBottom: '0.5rem', padding: 0 }}>
-        <a href="/relacionesconfianza" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
+        <Link to="/relacionesconfianza" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
           Opcion 6
-        </a>
+        </Link>
       </li>
     </div>
   );

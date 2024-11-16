@@ -64,8 +64,8 @@ function Navbar({ setHeaderText }) {
             <li className="nav-item">
               <NavLink to="/relacionesconfianza" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
                 {
-                  titulo:"Cómo Retirar Dinero en Nequi",
-                  texto: "En esta sección te enseñamos cómo sacar dinero fácilmente"
+                  titulo:"Relaciones de confianza",
+                  texto: "En esta sección aprenderás a gestionar tus relaciones de confianza"
                 }
               )}>
                 Relaciones de Confianza
