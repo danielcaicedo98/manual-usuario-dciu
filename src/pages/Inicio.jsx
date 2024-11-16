@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Inicio({ setHeaderText }) {
   return (
     <div className="container my-5">
-      <h1 className="mb-4">¡Bienvenido al Manual de Nequi!i</h1>
+      <h1 className="mb-4">¡Bienvenido al Manual de Nequi!</h1>
       <p className="lead text-justify">
         Aquí encontrarás toda la información que necesitas para sacar el máximo provecho de tu cuenta Nequi y realizar tus transacciones de forma fácil y segura. Ya sea que estés empezando o quieras conocer nuevas funciones, este manual te guiará paso a paso.
       </p>
