@@ -244,7 +244,7 @@ function RelacionesConfianza() {
                         <Card.Body>
                             <Card.Title className="text-center p-3">Relaciones de confianza</Card.Title>
                             <Card.Text className='text-justify m-3'>¿Qué es una relación de confianza?
-                                Es una conexión que puedes establecer con amigos de confianza para que, cuando te envíen dinero a través de Transfiya, el dinero se acreditará automáticamente en tu cuenta Nequi sin necesidad de que lo aceptes manualmente. Para concer más te damos las siguientes opciones:
+                                Es una conexión que puedes establecer con amigos de confianza para que, cuando te envíen dinero a través de Transfiya, el dinero se acreditará automáticamente en tu cuenta Nequi sin necesidad de que lo aceptes manualmente. Para conocer más te damos las siguientes opciones:
                             </Card.Text>
                             <div style={{ padding: '0.1rem', maxWidth: '15rem', marginLeft: '0' }}>
                                 <ul style={{ paddingLeft: '1.5rem', listStyleType: 'disc', margin: 0 }}>

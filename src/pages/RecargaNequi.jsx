@@ -92,19 +92,50 @@ function RecargaNequi() {
 
     const pasosNequi = [
         {
-            titulo: '1. Recibir Dinero por Transfiya',
-            descripcion: 'Cuando alguien te envía dinero por Transfiya, normalmente tienes 12 horas para entrar a Nequi y aceptar el dinero. Si no aceptas el dinero en ese plazo, este se devolverá automáticamente a la cuenta de tu amigo.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273465741'
+            titulo: 'Paso 1: Abre la app de Nequi',
+            descripcion: 'Inicia sesión en tu cuenta Nequi desde la aplicación.',
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/24303368420237'
         },
         {
-            titulo: '2. Automatizar la Recepción con Relaciones de Confianza',
-            descripcion: 'Si deseas que el dinero de ciertos amigos se acredite automáticamente sin tener que aceptarlo cada vez, puedes establecer una relación de confianza con ellos.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273477517'
+            titulo: 'Paso 2: Accede al ícono de Pesos',
+            descripcion: 'En la pantalla de inicio, toca el ícono con el signo Pesos 💲 que está en la esquina inferior derecha.',
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/24303368435597'
         },
         {
-            titulo: '3. Crear una Relación de Confianza',
-            descripcion: 'Después de recibir dinero por primera vez de un amigo, la app te dará la opción de "Crear relación de confianza" con esa persona. Una vez creada la relación, los envíos futuros de esa persona se acreditarán en tu cuenta automáticamente.',
-            imagen: '/assets/gifts/gift_transfiya1.gif'
+            titulo: 'Paso 3: Elige "Recarga Nequi"',
+            descripcion: 'Selecciona la opción "Recarga Nequi" del menú que aparece.',
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/24303383850637'
+        },
+        {
+            titulo: 'Paso 4: Selecciona "Desde otro banco"',
+            descripcion: 'Dentro del menú de recargas, elige la tercera opción: "Desde otro banco".',
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/24303368466957'
+        },
+        {
+            titulo: 'Paso 5: Completa la información requerida',
+            descripcion: 'Escribe los datos que la app solicita para realizar la transacción.',
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/24303368480013'
+        },
+        {
+            titulo: 'Paso 6: Serás redirigido',
+            descripcion: 'Serás redirigido al sistema PSE, donde deberás tener tu correo registrado',
+            imagen: '/assets/imagenes/redireccion_pse.png'
+        },
+        {
+            titulo: 'Paso 7: Autoriza la transacción',
+            descripcion: 'Después entrarás a la página de tu banco, autorizas la transacción y listo.',
+            imagen: '/assets/imagenes/autorizacion_pse.png'
+        },
+        {
+            titulo: 'Opción alternativa: Recarga desde la web',
+            descripcion:
+                <div>
+                    <p>
+                        También puedes recargar desde <a href="https://www.nequi.com.co/" target="_blank">la pagina de nequi</a> seleccionando el botón "Recarga" y siguiendo los mismos pasos.
+                    </p>
+                </div>
+            ,
+            imagen: '/assets/imagenes/recarga_web.png'
         }
     ];
 
@@ -135,7 +166,6 @@ function RecargaNequi() {
                         Si prefieres los corresponsales de Bancolombia, puedes <a href="https://www.bancolombia.com/puntos-de-atencion/buscar-en-mapa" target="_blank">consultar el mapa interactivo en línea</a> para encontrar las ubicaciones de los cajeros y corresponsales más cercanos. Accede a la plataforma de Bancolombia y usa el mapa para encontrar estos puntos de manera fácil y rápida.
                     </p>
                 </div>
-
             ,
             imagen: '/assets/imagenes/mapa_bancolombia.png'
         },
@@ -147,7 +177,7 @@ function RecargaNequi() {
                         Si buscas corresponsales de Nequi a través de Puntored, <a href="https://geo-nequi.puntored.co/" target="_blank">puedes visitar su sitio web</a>. Filtra los puntos físicos por "Depósitos y Retiros Nequi" en la categoría de productos y servicios para obtener la lista de corresponsales disponibles.
                     </p>
                 </div>
-        ,
+            ,
             imagen: '/assets/imagenes/mapa_puntored.png'
         },
         {
@@ -168,54 +198,103 @@ function RecargaNequi() {
                         <li>Se mostrará un mapa con los corresponsales más cercanos a tu ubicación.</li>
                     </ul>
                 </div>,
-            imagen: '/assets/imagenes/app_nequi_corresponsales.jpg'
+            imagen: '/assets/gifts/punto_fisico.gif'
+        },
+        {
+            titulo: 'Paso 5: Recarga con efectivo',
+            descripcion:
+                <div>
+                    <p>Dile al encargado que vas a recargar tu Nequi:</p>
+                    <ul>
+                        <li>Tu numero de celular es el numero para recargar tu Nequi</li>
+                        <li>Lo mínimo que puedes recargas es $10.000</li>
+                    </ul>
+                    <p>¡Listo! verifica que el dinero esté en tu cuenta de Nequi.</p>
+                </div>,
+            imagen: 'https://www.bancow.com.co/wp-content/uploads/2018/03/f-microempresario-3.jpg'
         }
     ];
 
     const pasosBancos = [
         {
-            titulo: 'Paso 1: Accede a Ajustes',
-            descripcion: 'Abre la app Nequi e inicia sesión. Luego, ve a "Ajustes" en el menú principal y selecciona "Tu Nequi".',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273465741'
+            titulo: '¡Convierte tus códigos en plata con Nequi!',
+            descripcion: 'Canjear tus códigos por dinero en tu saldo disponible es rápido y sencillo. Si tienes un código proporcionado por una marca, comercio o promoción asociada a Nequi, sigue estos pasos para disfrutar de tu dinero extra.',
+            imagen: 'https://cdn.prod.website-files.com/63500c9a931741e8e7d2687e/665e3768a7ce0bfd5fe2d86b_Que%CC%81%20es%20Nequi.png'
         },
         {
-            titulo: 'Paso 2: Administra tus Favoritos en Transfiya',
-            descripcion: 'Busca la opción "Transfiya: Administra tus favoritos" dentro de la sección de ajustes.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273477517'
+            titulo: 'Paso 1: Abre la app y busca el ícono de Pesos',
+            descripcion: 'Encuentra el ícono con el signo Pesos 💲 en la esquina inferior derecha de la pantalla de inicio.',
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/27013059072525'
         },
         {
-            titulo: 'Paso 3: Consulta tus Relaciones de Confianza',
-            descripcion: 'Selecciona la tarjeta "Relaciones de confianza". Sigue las instrucciones y verás el listado de amigos que tienes como relaciones de confianza. Esto te permitirá ver fácilmente las personas que has marcado para recibir dinero automáticamente en tu cuenta Nequi.',
-            imagen: '/assets/gifts/gift_transfiya1.gif'
+            titulo: 'Paso 2: Selecciona Recarga Nequi',
+            descripcion: 'En el menu que te aparece selecciona la opcion que dice Recarga Nequi',
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168232740749'
+        },
+        {
+            titulo: 'Paso 3: Selecciona "Codigo de regalo"',
+            descripcion: 'Elige la opción "Código de regalo" para recargar usando un código de regalo ',
+            imagen: '/assets/imagenes/recarga.png'
+        },
+        {
+            titulo: 'Paso 4: Ingresa tu código',
+            descripcion: (
+                <div style={{ fontFamily: 'Arial, sans-serif' }}>
+                    <p>Escribe el código en el campo indicado para validar su vigencia.</p>
+                    <ul>
+                        <li><strong>Ten en cuenta:</strong> Los códigos son únicos y solo se pueden redimir una vez.</li>
+                        <li>Verifica la vigencia del código, ya que depende de las campañas de las marcas aliadas o promociones de Nequi.</li>
+                    </ul>
+                </div>
+            ),
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/27013090976909'
+        },
+        {
+            titulo: 'Paso 4: Recibe tu dinero al instante',
+            descripcion: 'Si el código es válido, el dinero se reflejará de inmediato en tu saldo disponible. ¡Así de fácil!',
+            imagen: '/assets/imagenes/listo.jpg'
         }
     ];
 
     const pasosEliminar = [
         {
-            titulo: 'Quiero eliminar mi relación de confianza',
-            descripcion: 'Si ya no deseas que el dinero de un amigo se acredite automáticamente en tu cuenta, puedes eliminar la relación de confianza de forma sencilla.',
-            imagen: 'https://www.las2orillas.co/wp-content/uploads/2023/10/cambios-nequi.jpg'
+            titulo: 'Requisitos para usar Plata al toque',
+            descripcion:
+                <div style={{ fontFamily: 'Arial, sans-serif' }}>
+                    {/* <h2>Requisitos para usar Plata al toque</h2> */}
+                    <p>Antes de hacer uso de Plata al toque, revisa los siguientes puntos:</p>
+                    <ol>
+                        <li><strong>Debes ser mayor de edad y tener cédula de ciudadanía.</strong></li>
+                        <li><strong>Tener una cuenta Bancolombia a tu nombre.</strong> (mismo titular Nequi – mismo titular Bancolombia)</li>
+                        <li>
+                            <strong>Si te aparece que aún no tenemos esta opción disponible para ti,</strong> cuando nos conozcamos mejor estará habilitada. Mientras tanto, te invitamos a recargar Nequi por la App Personas Bancolombia o por PSE.
+                        </li>
+                        <li>
+                            <strong>La opción de alertas y notificaciones de tu cuenta Bancolombia debe estar activa.</strong> Si no lo está, no se podrá habilitar este servicio. En caso de no saber cómo activarlo, te recomendamos comunicarte con Bancolombia para que conozcas el paso a paso y actives esta opción.
+                        </li>
+                        <li><strong>Plata al toque te ayudará a recargar máximo $300.000 al día y hasta $2.000.000 en el mes.</strong></li>
+                        <li><strong>Es completamente gratis</strong> y no tienes que pensar en 4x1.000.</li>
+                        <li><strong>Recuerda que las recargas por Plata al toque son inmediatas.</strong></li>
+                    </ol>
+                </div>
+            ,
+            imagen: 'https://files.lafm.com.co/assets/public/styles/facebook2/public/2021-12/nequi_fuera_de_bancolombia_0.jpg.webp?VersionId=7ib7kFuPlRWQaaFAINmlK0scnTtGjvfw&itok=FO47c9Ah'
         },
         {
-            titulo: 'Paso 1: Accede a la Lista',
-            descripcion: 'Accede a la lista de relaciones de confianza en la app Nequi.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273465741'
+            titulo: 'Paso 1: Ingresa a Nequi',
+            descripcion: 'Entra en la app de Nequi usando tus credenciales',
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168232736397'
         },
         {
-            titulo: 'Paso 2: Busca la Relación',
-            descripcion: 'Busca el amigo que deseas eliminar de tu lista de relaciones de confianza.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273477517'
+            titulo: 'Paso 2: Accede al Menú de Envíos',
+            descripcion: 'En la pantalla de inicio, toca el símbolo "$" que se encuentra en la esquina inferior derecha.',
+            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168232740749'
         },
         {
-            titulo: 'Paso 3: Elimina la Relación',
-            descripcion: 'Toca el ícono de la papelera junto al nombre del amigo para eliminar la relación de confianza.',
-            imagen: '/assets/gifts/gift_transfiya1.gif'
+            titulo: 'Paso 3: Selecciona "Recarga"',
+            descripcion: 'Elige la opción "Recarga" y luego selecciona "Plata al Toque" para recargar desde tu cuenta Bancolombia. Selecciona el monto y ¡Listo!',
+            imagen: '/assets/imagenes/recarga.png'
         },
-        {
-            titulo: '¿Qué pasa después?',
-            descripcion: 'Una vez eliminada la relación, la próxima vez que esa persona te envíe dinero, tendrás que entrar a Nequi y aceptar el envío como si fuera la primera vez.',
-            imagen: '/assets/imagenes/relacion_eliminada.jpg'
-        }
     ]
 
 
@@ -237,7 +316,7 @@ function RecargaNequi() {
 
                         className="w-100"
                         onClick={() => optionNequi()}>
-                        ¿Cómo Funciona?
+                        Desde Otro Banco
                     </Button>
                     <Button
                         style={{
@@ -247,7 +326,7 @@ function RecargaNequi() {
                         }}
                         className="w-100"
                         onClick={() => optionTransfiya()}>
-                        Pasos
+                        Con Efectivo
                     </Button>
                     <Button
                         style={{
@@ -258,7 +337,7 @@ function RecargaNequi() {
 
                         className="w-100"
                         onClick={() => optionBancos()}>
-                        Ver Mis Relaciones
+                        Código Regalo
                     </Button>
                     <Button
                         style={{
@@ -269,7 +348,7 @@ function RecargaNequi() {
 
                         className="w-100"
                         onClick={() => optionEliminar()}>
-                        Eliminar Relaciones
+                        Plata al Toque
                     </Button>
                 </Card.Body>
             </Card>
@@ -278,30 +357,29 @@ function RecargaNequi() {
                 {!modo ? (
                     <Card style={{ width: '35rem' }} className="shadow">
                         <Card.Body>
-                            <Card.Title className="text-center p-3">Relaciones de confianza</Card.Title>
-                            <Card.Text className='text-justify m-3'>¿Qué es una relación de confianza?
-                                Es una conexión que puedes establecer con amigos de confianza para que, cuando te envíen dinero a través de Transfiya, el dinero se acreditará automáticamente en tu cuenta Nequi sin necesidad de que lo aceptes manualmente. Para concer más te damos las siguientes opciones:
+                            <Card.Title className="text-center p-3">Recarga tu Nequi</Card.Title>
+                            <Card.Text className='text-justify m-3'>Con Nequi, recargar dinero es rápido y sencillo. Solo necesitas seleccionar el método que prefieras: desde tu cuenta bancaria, puntos físicos aliados o transferencias de otros usuarios Nequi. Administra tus finanzas al instante, sin costos adicionales, y mantén tu saldo disponible para realizar pagos, ahorrar o alcanzar tus metas financieras. ¡Todo desde la palma de tu mano!. Para conocer más te damos las siguientes opciones:
                             </Card.Text>
                             <div style={{ padding: '0.1rem', maxWidth: '15rem', marginLeft: '0' }}>
                                 <ul style={{ paddingLeft: '1.5rem', listStyleType: 'disc', margin: 0 }}>
                                     <li style={{ marginBottom: '0.5rem', padding: 0 }}>
                                         <a href="#" onClick={() => listNequi()} className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-                                            ¿Cómo Funciona?
+                                            ¿Cómo recargar desde otro banco?
                                         </a>
                                     </li>
                                     <li style={{ marginBottom: '0.5rem', padding: 0 }}>
                                         <a href="#" onClick={() => listTransfiya()} className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-                                            Pasos para configurarlos
+                                            ¿Cómo recargar en efectivo?
                                         </a>
                                     </li>
                                     <li style={{ marginBottom: '0.5rem', padding: 0 }}>
                                         <a href="#" onClick={() => listBancos()} className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-                                            ¿Cómo ver mis relaciones de confianza?
+                                            ¿Cómo recargar con código de regalo?
                                         </a>
                                     </li>
                                     <li style={{ marginBottom: '0.5rem', padding: 0 }}>
                                         <a href="#" onClick={() => listEliminar()} className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-                                            ¿Cómo eliminar mis relaciones de confianza?
+                                            ¿Cómo recargar desde plata al toque?
                                         </a>
                                     </li>
                                 </ul>
