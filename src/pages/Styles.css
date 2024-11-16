@@ -1,0 +1,29 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .note {
+    font-weight: bold;
+  }
+  
+  .bancos-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+    gap: 10px; /* Espacio entre los elementos */
+    list-style-type: disc; /* Puntos (viñetas) en la lista */
+    padding-left: 20px; /* Para que los puntos estén alineados a la izquierda */
+    margin-top: 10px;
+  }
+  
+  .banco-item {
+    font-size: 0.9rem;
+    text-align: left; /* Alinea el texto a la izquierda */
+    padding: 5px;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  

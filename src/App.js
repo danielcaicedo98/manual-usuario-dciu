@@ -9,12 +9,15 @@ import Seguridad from './pages/Seguridad';
 import './App.scss';
 import Mainbar from './components/MainBar';
 import EnviarDinero from './pages/EnviarDinero';
+import SacarDinero from './pages/SacarDinero';
+import RelacionesConfianza from './pages/RelacionesConfianza';
+import RecargaNequi from './pages/RecargaNequi';
 
 function App() {
 
   const [headerText, setHeaderText] = useState({
     titulo:"Aprende a usar Nequi",
-    texto: "Te damos la bienvenida a nequi. Aquí aprenderás a usarlo"
+    texto: "Explora las funciones clave de Nequi para aprovechar al máximo tu cuenta."
   });
 
   return (
@@ -29,11 +32,16 @@ function App() {
         <Navbar setHeaderText={setHeaderText} />
         <div className="content">
           <Routes>
-            <Route path="/" element={<Inicio />} />
+            <Route path="/" element={<Inicio setHeaderText={setHeaderText}/>} />
             <Route path="/funciones" element={<Funciones />} />
             <Route path="/configuracion" element={<Configuracion />} />
             <Route path="/seguridad" element={<Seguridad />} />
+
+
             <Route path="/enviardinero" element={<EnviarDinero />} />
+            <Route path="/sacardinero" element={<SacarDinero />} />
+            <Route path="/relacionesconfianza" element={<RelacionesConfianza />} />
+            <Route path="/recarganequi" element={<RecargaNequi />} />
           </Routes>
         </div>
       </div>
