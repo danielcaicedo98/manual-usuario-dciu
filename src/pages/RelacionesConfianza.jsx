@@ -8,6 +8,11 @@ function RelacionesConfianza() {
     const [paso, setPaso] = useState(1);
     const finalRef = useRef(null);
 
+    useEffect(() => {
+        // Este código hace scroll hacia el top (arriba) solo una vez al montar el componente
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, []);
+
     // Función para avanzar al siguiente paso
     const siguientePaso = () => {
         setPaso(paso + 1);
