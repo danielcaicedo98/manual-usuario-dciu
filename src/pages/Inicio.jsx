@@ -54,17 +54,7 @@ function Inicio({ setHeaderText }) {
           )}>
           Relaciones de confianza
         </Link>
-      </li>
-      <li style={{ marginBottom: '0.5rem', padding: 0 }}>
-        <Link to="/relacionesconfianza" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-          Opcion 5
-        </Link>
-      </li>
-      <li style={{ marginBottom: '0.5rem', padding: 0 }}>
-        <Link to="/relacionesconfianza" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}>
-          Opcion 6
-        </Link>
-      </li>
+      </li>      
     </div>
   );
 }
