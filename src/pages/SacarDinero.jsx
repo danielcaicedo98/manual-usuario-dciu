@@ -45,22 +45,22 @@ function SacarDinero() {
         {
             titulo: 'Paso 1: Abre la Aplicación Nequi',
             descripcion: 'Inicia sesión en la app Nequi desde tu dispositivo.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273465741'
+            imagen: './assets/imagenes/1Inicio.jpeg'
         },
         {
             titulo: 'Paso 2: Accede al Menú de Retiros',
             descripcion: 'Selecciona el ícono del signo "$" en la parte inferior de la pantalla. Y dentro del menú, selecciona la opción "Saca".',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273477517'
+            imagen: './assets/imagenes/2Menu.jpeg'
         },
         {
             titulo: 'Paso 3: Selecciona el Método de Retiro',
             descripcion: 'Elige si deseas retirar el dinero en "Cajeros" o en "Puntos físicos" (corresponsales).',
-            imagen: '/assets/gifts/gift_transfiya1.gif'
+            imagen: './assets/imagenes/3Metododeretiro.jpeg'
         },
         {
             titulo: 'Paso 4: Genera tu Código de Retiro',
             descripcion: 'Automáticamente se generará un código de 6 dígitos que será visible en la app durante 30 minutos. Este código lo necesitarás para completar el retiro.',
-            imagen: '/assets/imagenes/codigo_retiro.jpg'
+            imagen: './assets/imagenes/4codigo.jpeg'
         },
         {
             titulo: 'Paso 5: Realiza el Retiro',
@@ -74,12 +74,12 @@ function SacarDinero() {
                         <li><strong>En un Punto Físico:</strong> Muestra el código al corresponsal para completar el retiro.</li>
                     </ul>
                 </div>,
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273465742'
+            imagen: './assets/imagenes/5corresponsalnequi.png'
         },
         {
             titulo: 'Paso 6: Si el Saldo es Menor a $10,000 COP',
             descripcion: 'Si el saldo disponible es menor a $10,000 COP, la app mostrará un mensaje que dice: "¡No te alcanza para sacar plata!". Para completar el retiro, deberás recargar la cantidad faltante en tu saldo disponible o en el bolsillo que hayas seleccionado.',
-            imagen: '/assets/imagenes/saldo_insuficiente.jpg'
+            imagen: './assets/imagenes/6nosepuederealizar.jfif'
         }
     ];
 
