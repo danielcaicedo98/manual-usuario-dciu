@@ -99,17 +99,17 @@ function RelacionesConfianza() {
         {
             titulo: 'Paso 1: Accede a Ajustes',
             descripcion: 'Abre la app Nequi e inicia sesión. Luego, ve a "Ajustes" en el menú principal y selecciona "Tu Nequi".',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273465741'
+            imagen: './assets/imagenes/11ajustes.png'
         },
         {
             titulo: 'Paso 2: Administra tus Favoritos en Transfiya',
             descripcion: 'Busca la opción "Transfiya: Administra tus favoritos" dentro de la sección de ajustes.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273477517'
+            imagen: './assets/imagenes/14Relacionesdeconfianza.png'
         },
         {
             titulo: 'Paso 3: Consulta tus Relaciones de Confianza',
             descripcion: 'Selecciona la tarjeta "Relaciones de confianza". Sigue las instrucciones y verás el listado de amigos que tienes como relaciones de confianza. Esto te permitirá ver fácilmente las personas que has marcado para recibir dinero automáticamente en tu cuenta Nequi.',
-            imagen: '/assets/gifts/gift_transfiya1.gif'
+            imagen: './assets/imagenes/15conexionesderelacion.png'
         }
     ];
 
@@ -117,22 +117,22 @@ function RelacionesConfianza() {
         {
             titulo: 'Paso 1: Inicia Sesión en Nequi',
             descripcion: 'Abre la app Nequi e inicia sesión con tu número de celular y clave.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273465741'
+            imagen: './assets/imagenes/10perfil.png'
         },
         {
             titulo: 'Paso 2: Ve a la Sección de Ajustes',
             descripcion: 'Selecciona "Ajustes" en el menú. Luego, elige la opción "Tu Nequi".',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273477517'
+            imagen: './assets/imagenes/11ajustes.png'
         },
         {
             titulo: 'Paso 3: Configura tus Favoritos en Transfiya',
             descripcion: 'Busca la opción "Transfiya: Administra tus favoritos" dentro de la sección de ajustes.',
-            imagen: '/assets/gifts/gift_transfiya1.gif'
+            imagen: './assets/imagenes/12Tunequi.png'
         },
         {
             titulo: 'Paso 4: Activa Nequi como Favorita',
             descripcion: 'Al lado de la opción "Tu Nequi como favorita", verás un botón. Presiónalo para activarlo y establecer la relación de confianza.',
-            imagen: '/assets/imagenes/nequi_favorito.jpg'
+            imagen: './assets/imagenes/13Tunequicomofavorita.png'
         },
         {
             titulo: '¡Listo! Transfiya ya Está Configurado',
@@ -145,17 +145,17 @@ function RelacionesConfianza() {
         {
             titulo: '1. Recibir Dinero por Transfiya',
             descripcion: 'Cuando alguien te envía dinero por Transfiya, normalmente tienes 12 horas para entrar a Nequi y aceptar el dinero. Si no aceptas el dinero en ese plazo, este se devolverá automáticamente a la cuenta de tu amigo.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273465741'
+            imagen: './assets/imagenes/7tranfiya.png'
         },
         {
             titulo: '2. Automatizar la Recepción con Relaciones de Confianza',
             descripcion: 'Si deseas que el dinero de ciertos amigos se acredite automáticamente sin tener que aceptarlo cada vez, puedes establecer una relación de confianza con ellos.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273477517'
+            imagen: './assets/imagenes/8recibe.png'
         },
         {
             titulo: '3. Crear una Relación de Confianza',
             descripcion: 'Después de recibir dinero por primera vez de un amigo, la app te dará la opción de "Crear relación de confianza" con esa persona. Una vez creada la relación, los envíos futuros de esa persona se acreditarán en tu cuenta automáticamente.',
-            imagen: '/assets/gifts/gift_transfiya1.gif'
+            imagen: './assets/imagenes/9relacion.png'
         }
     ];
 
@@ -173,17 +173,17 @@ function RelacionesConfianza() {
         {
             titulo: 'Paso 2: Busca la Relación',
             descripcion: 'Busca el amigo que deseas eliminar de tu lista de relaciones de confianza.',
-            imagen: 'https://ayuda.nequi.com.co/hc/article_attachments/30168273477517'
+            imagen: './assets/imagenes/16Listaderelaciones.png'
         },
         {
             titulo: 'Paso 3: Elimina la Relación',
             descripcion: 'Toca el ícono de la papelera junto al nombre del amigo para eliminar la relación de confianza.',
-            imagen: '/assets/gifts/gift_transfiya1.gif'
+            imagen: './assets/imagenes/17Eliminarrelaciones.png'
         },
         {
             titulo: '¿Qué pasa después?',
             descripcion: 'Una vez eliminada la relación, la próxima vez que esa persona te envíe dinero, tendrás que entrar a Nequi y aceptar el envío como si fuera la primera vez.',
-            imagen: '/assets/imagenes/relacion_eliminada.jpg'
+            imagen: './assets/imagenes/8recibe.png'
         }
     ]
 
