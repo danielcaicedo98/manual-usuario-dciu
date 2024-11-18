@@ -10,8 +10,13 @@ import './App.scss';
 import Mainbar from './components/MainBar';
 import EnviarDinero from './pages/EnviarDinero';
 import SacarDinero from './pages/SacarDinero';
+import PedirDinero from './pages/PedirDinero';
 import RelacionesConfianza from './pages/RelacionesConfianza';
 import RecargaNequi from './pages/RecargaNequi';
+import Metas from './pages/Metas';
+
+
+
 
 function App() {
 
@@ -36,10 +41,10 @@ function App() {
             <Route path="/funciones" element={<Funciones />} />
             <Route path="/configuracion" element={<Configuracion />} />
             <Route path="/seguridad" element={<Seguridad />} />
-
-
+            <Route path="/metas" element={<Metas />} />
             <Route path="/enviardinero" element={<EnviarDinero />} />
             <Route path="/sacardinero" element={<SacarDinero />} />
+            <Route path="/pedirdinero" element={<PedirDinero />} />
             <Route path="/relacionesconfianza" element={<RelacionesConfianza />} />
             <Route path="/recarganequi" element={<RecargaNequi />} />
           </Routes>
