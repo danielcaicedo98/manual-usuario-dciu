@@ -49,8 +49,29 @@ function Navbar({ setHeaderText }) {
                 }
               )}>
                 Sacar Dinero
-              </NavLink>
+              </NavLink> 
             </li>
+            <li className="nav-item">
+              <NavLink to="/pedirdinero" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
+                {
+                  titulo:"Cómo Retirar Dinero en Nequi",
+                  texto: "En esta sección te enseñamos cómo sacar dinero fácilmente"
+                }
+              )}>
+                Pedir Dinero
+              </NavLink> 
+            </li>
+            <li className="nav-item">
+              <NavLink to="/metas" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
+                {
+                  titulo:"Cómo Retirar Dinero en Nequi",
+                  texto: "En esta sección te enseñamos cómo sacar dinero fácilmente"
+                }
+              )}>
+                Metas
+              </NavLink> 
+            </li>
+            
             <li className="nav-item">
               <NavLink to="/recarganequi" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
                 {
