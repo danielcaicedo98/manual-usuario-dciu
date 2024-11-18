@@ -54,8 +54,8 @@ function Navbar({ setHeaderText }) {
             <li className="nav-item">
               <NavLink to="/pedirdinero" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
                 {
-                  titulo:"Cómo Retirar Dinero en Nequi",
-                  texto: "En esta sección te enseñamos cómo sacar dinero fácilmente"
+                  titulo:"Cómo Pedir Dinero en Nequi",
+                  texto: "En esta sección te enseñamos cómo pedir dinero fácilmente"
                 }
               )}>
                 Pedir Dinero
@@ -64,8 +64,8 @@ function Navbar({ setHeaderText }) {
             <li className="nav-item">
               <NavLink to="/metas" className="nav-link" activeClassName="active" onClick={() => setHeaderText(
                 {
-                  titulo:"Cómo Retirar Dinero en Nequi",
-                  texto: "En esta sección te enseñamos cómo sacar dinero fácilmente"
+                  titulo:"Metas",
+                  texto: "En esta sección te enseñamos cómo gestionar tus metas"
                 }
               )}>
                 Metas

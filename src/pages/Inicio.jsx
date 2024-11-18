@@ -54,7 +54,29 @@ function Inicio({ setHeaderText }) {
           )}>
           Relaciones de confianza
         </Link>
-      </li>      
+      </li>
+      <li style={{ marginBottom: '0.5rem', padding: 0 }}>
+        <Link to="/pedirdinero" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}
+          onClick={() => setHeaderText(
+            {
+              titulo: "Cómo Pedir Dinero en Nequi",
+              texto: "En esta sección te enseñamos cómo pedir dinero fácilmente"
+            }
+          )}>
+          Pedir dinero en Nequi
+        </Link>
+      </li>
+      <li style={{ marginBottom: '0.5rem', padding: 0 }}>
+        <Link to="/metas" className="text-primary" style={{ textDecoration: 'none', display: 'inline' }}
+          onClick={() => setHeaderText(
+            {
+              titulo: "Metas",
+              texto: "En esta sección te enseñamos cómo gestionar tus metas"
+            }
+          )}>
+          Gestionar tus metas
+        </Link>
+      </li>
     </div>
   );
 }
